@@ -1,0 +1,20 @@
+Nome tabella: cars
+
+id                  intero          MEDIUMINT               UNIQUE  PRIMARY_KEY AUTOINCREMENT
+brand               stringa         VARCHAR(20)             NOTNULL 
+model               stringa         VARCHAR(50)             NOTNULL 
+price               float           FLOAT(9,2)              NOTNULL DEFAULT:0
+power_supply        stringa         VARCHAR(15)             NOTNULL 
+doors               intero          TINYINT                 NOTNULL 
+seats               intero          TINYINT                 NOTNULL
+gear_shift          stringa         VARCHAR(20)             NOTNULL
+length              float           FLOAT (4,2)             NOTNULL
+width               float           FLOAT (4,2)             NOTNULL
+height              float           FLOAT (4,2)             NOTNULL
+weigth              float           FLOAT (4,2)             NOTNULL
+tank_capacity       intero          TINYINT                 NOTNULL
+description         stringa         TEXT                    NULL
+displacement_cc     intero          TINYINT                 NOTNULL
+power_cv            intero          TINYINT                 NOTNULL
+power_kw            intero          TINYINT                 NOTNULL
+max_speed           intero          TINYINT                 NOTNULL
